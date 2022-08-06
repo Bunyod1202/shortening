@@ -118,6 +118,9 @@ body{
     color: $main-text-white-color;
     background-color: $main-grin-color;
     border-radius: 28px;
+    &:hover {
+      background-color: #9AE3E3;
+    }
   } 
   .btn-menu {
     display: none;
@@ -163,6 +166,9 @@ body{
     color:$main-text-white-color;
     background-color: $main-grin-color;
     border-radius: 28px;
+    &:hover {
+      background-color: #9AE3E3;
+    }
   }
   .forms {
     max-width: 1110px;
@@ -247,6 +253,53 @@ body{
 }
 .intro {
   padding: 200px 0 315px 0;
+  .recting-list {
+    list-style: none;
+
+  }
+  .recting-list-item {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px 24px;
+    background-color: $main-text-white-color;
+    display: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .btns {
+    display: flex;
+    align-items: center;
+  }
+  .link-url {
+    font-weight: 500;
+font-size: 20px;
+line-height: 36px;
+letter-spacing: 0.15px;
+color: $main-bone-color;
+margin: 0;
+  }
+  .utl-link {
+    font-weight: 500;
+font-size: 20px;
+line-height: 36px;
+letter-spacing: 0.15px;
+color: $main-grin-color;
+margin: 0;
+margin-right: 24px;
+  }
+  .copy-btn {
+    background-color: $main-grin-color;
+border-radius: 5px;
+font-weight: 700;
+font-size: 15px;
+line-height: 22px;
+color: $main-text-white-color;
+padding: 9px 31px;
+  }
+  .add--active {
+    display: flex;
+  }
   .intro-content {
     max-width: 540px;
     margin: 0 auto;
@@ -287,6 +340,7 @@ body{
     padding: 77px 32px 41px 32px;
     border-radius: 5px;
     background-color: $main-text-white-color;
+    margin-top: -50px;
     &::before {
       content: "";
       width: 88px;
@@ -302,10 +356,10 @@ body{
       transform: translateY(-50%);
     }
     &:nth-child(3) {
-      margin-top: 200px;
+      margin-top: 115px;
     }
     &:nth-child(2) {
-      margin-top: 100px;
+      margin-top: 60px;
     }  
     &:nth-child(2)::before {
       background-image: url("../images/Combined\ Shape\ \(2\).svg")
@@ -342,6 +396,9 @@ color:$main-text-white-color;
 background-color: $main-grin-color;
 border-radius: 28px;
 border: none;
+&:hover {
+  background-color: #9AE3E3;
+}
   }
 }
 .site-footer {
@@ -442,6 +499,7 @@ color: #2BD0D0;
   .intro {
     .card-list-item {
       max-width: 250px;
+     
     }
   }
 }
@@ -468,6 +526,10 @@ height: 1014px;
       &:nth-child(3) {
         margin-top: 100px;
         margin-left: 300px;
+      }
+      &:nth-child(2) {
+        margin-top: 100px;
+    
       }
     }
   }
@@ -633,6 +695,12 @@ font-size: 16px;
 line-height: 28px;
     }
     .card-list-item {
+      text-align: center; 
+      &::before {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
       &:nth-child(1) {
         margin-left: 0px;
       }

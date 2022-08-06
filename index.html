@@ -52,12 +52,12 @@
         <form class="form" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
        <div class="form-input">
         <label>
-          <input class="input" type="url" name="shorten" min="2" max="30" placeholder="Shorten a link here..." aria-label="enter your url" required>
+          <input class="input" id="input" type="url" name="shorten" min="2" max="30" placeholder="Shorten a link here..." aria-label="enter your url" required>
           <span>Please add a link</span>
          </label>
        </div>
           <div class="btn-group-forms">
-            <button class="forms-btn">Shorten It!</button>
+            <button class="forms-btn" type="button" onclick="addlist()" >Shorten It!</button>
           </div>
         </form>
       </div>
@@ -67,6 +67,29 @@
     <section class="intro">
       <div class="container">
         <div class="intro-inner">
+          <ul class="recting-list">
+            <li class="recting-list-item" id="list1">
+              <p class="link-url">https://www.frontendmentor.io</p>
+              <div class="btns">
+                <p class="utl-link">https://rel.ink/k4lKyk</p>
+                <a class="copy-btn" href="#">Copy</a>
+              </div>
+            </li>
+            <li class="recting-list-item" id="list2">
+              <p class="link-url">https://www.frontendmentor.io</p>
+              <div class="btns">
+                <p class="utl-link">https://rel.ink/k4lKyk</p>
+                <a class="copy-btn" href="#">Copy</a>
+              </div>
+            </li>
+            <li class="recting-list-item" id="list3">
+              <p class="link-url">https://www.frontendmentor.io</p>
+              <div class="btns">
+                <p class="utl-link">https://rel.ink/k4lKyk</p>
+                <a class="copy-btn" href="#">Copy</a>
+              </div>
+            </li>
+          </ul>
           <div class="intro-content">
             <h2 class="intro-title">Advanced Statistics</h2>
             <p class="intro-text">Track how your links are performing across the web with our advanced statistics dashboard.</p>

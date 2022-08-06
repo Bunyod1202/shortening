@@ -138,6 +138,9 @@ body {
   background-color: #2BD0D0;
   border-radius: 28px;
 }
+.header-site .sign-up:hover {
+  background-color: #9AE3E3;
+}
 .header-site .btn-menu {
   display: none;
 }
@@ -180,6 +183,9 @@ body {
   color: #fff;
   background-color: #2BD0D0;
   border-radius: 28px;
+}
+.hero .btn-green:hover {
+  background-color: #9AE3E3;
 }
 .hero .forms {
   max-width: 1110px;
@@ -318,6 +324,62 @@ body {
 .intro {
   padding: 200px 0 315px 0;
 }
+.intro .recting-list {
+  list-style: none;
+}
+.intro .recting-list-item {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 16px 24px;
+  background-color: #fff;
+  display: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.intro .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.intro .link-url {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #3A3054;
+  margin: 0;
+}
+.intro .utl-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #2BD0D0;
+  margin: 0;
+  margin-right: 24px;
+}
+.intro .copy-btn {
+  background-color: #2BD0D0;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+  padding: 9px 31px;
+}
+.intro .add--active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .intro .intro-content {
   max-width: 540px;
   margin: 0 auto;
@@ -364,6 +426,7 @@ body {
   padding: 77px 32px 41px 32px;
   border-radius: 5px;
   background-color: #fff;
+  margin-top: -50px;
 }
 .intro .card-list-item::before {
   content: "";
@@ -381,10 +444,10 @@ body {
           transform: translateY(-50%);
 }
 .intro .card-list-item:nth-child(3) {
-  margin-top: 200px;
+  margin-top: 115px;
 }
 .intro .card-list-item:nth-child(2) {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 .intro .card-list-item:nth-child(2)::before {
   background-image: url("../images/Combined Shape (2).svg");
@@ -419,6 +482,9 @@ body {
   background-color: #2BD0D0;
   border-radius: 28px;
   border: none;
+}
+.boost .boost-btn:hover {
+  background-color: #9AE3E3;
 }
 
 .site-footer {
@@ -544,6 +610,9 @@ body {
   .intro .card-list-item:nth-child(3) {
     margin-top: 100px;
     margin-left: 300px;
+  }
+  .intro .card-list-item:nth-child(2) {
+    margin-top: 100px;
   }
   .site-footer .links {
     -webkit-box-orient: vertical;
@@ -715,6 +784,14 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 28px;
+  }
+  .intro .card-list-item {
+    text-align: center;
+  }
+  .intro .card-list-item::before {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
   .intro .card-list-item:nth-child(1) {
     margin-left: 0px;
